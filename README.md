@@ -38,12 +38,11 @@ npm install prompt-sync
 
 #### Estrutura dos arquivos
 
-    exercicios-logica-js/
+    -Prati_Lista_exercicios_2/
     ├── Exercicio01.js          # Arquivo com o exercício resolvido
     ├── Exercicio09.js          # Arquivo com o exercício até o 09
     ├── README.md               # Instruções de execução
-    ├── package-lock.json       # Arquivo gerado automaticamente ao instalar prompt-sync
-    └── package.json            # Arquivo gerado automaticamente ao instalar prompt-sync
+    ├── LICENSE                 # Arquivo com a licença do projeto (MIT)
 
 #### Autor
 
