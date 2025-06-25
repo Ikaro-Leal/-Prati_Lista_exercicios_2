@@ -1,0 +1,23 @@
+{
+  "name": "-prati_lista_exercicios_2",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "01.Exericio01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ikaro-Leal/-Prati_Lista_exercicios_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ikaro-Leal/-Prati_Lista_exercicios_2/issues"
+  },
+  "homepage": "https://github.com/Ikaro-Leal/-Prati_Lista_exercicios_2#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

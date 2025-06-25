@@ -7,14 +7,10 @@ O projeto deste repositório contém a resolução de diversos exercícios de l�
 
 Para executar os exercícios do projeto localmente, em seu ambiente, é necessário a realização dos seguintes passos:
 
-> **1.** Instalação do **node.js**, através do link: 
-[Download node.js](https://nodejs.org/)
->
->**2.** Instalação de um editor de código, recomendado o **VsCode Studio**, através do link: 
-[Download Visual Studio Code](https://code.visualstudio.com/)
->
->**3.** Instalação do **Git**, atráves do link
- [Download para o Git](https://git-scm.com/)
+* **Node.js:** O ambiente de execução para JavaScript. [Faça o download aqui](https://nodejs.org/).
+* **Git:** O sistema de controle de versão para clonar este repositório. [Faça o download aqui](https://git-scm.com/).
+* **Editor de Código:** Recomendado o **Visual Studio Code**. [Faça o download aqui](https://code.visualstudio.com/).
+
 
 #### Passos para execução
 
@@ -41,16 +37,21 @@ cd -Prati_Lista_exercicios_2
 É necessario a instalação da biblioteca **prompt-sync**, realizando o seguinte comando no terminal do VsCode Studio:
 
 ```bash
-npm install prompt-sync
+npm install
 ```
+
 
 #### Estrutura dos arquivos
 
     -Prati_Lista_exercicios_2/
+    ├── .gitignore              # O Selo de Ocultação para a pasta node_modules
     ├── Exercicio01.js          # Arquivo com o exercício resolvido
+    ├── ...                     # Demais arquivos de exercícios
     ├── Exercicio09.js          # Arquivo com o exercício até o 09
-    ├── README.md               # Instruções de execução
     ├── LICENSE                 # Arquivo com a licença do projeto (MIT)
+    ├── package.json            # O Esquema Mestre com as dependências do projeto
+    ├── package-lock.json       # O Selo de Pureza que garante as versões exatas
+    ├── README.md               # Instruções de execução
 
 #### Autor
 
@@ -66,7 +67,7 @@ npm install prompt-sync
     Crie a função ehDataValida(dia, mes, ano) que retorne true se os valores
     formarem uma data real (meses de 28–31 dias, ano bissexto para
     fevereiro) e false caso contrário.
-    <br>
+<br>
 2. Jogo de Adivinhação
     Escreva um script que gere um número aleatório de 1 a 100 e peça ao
     usuário, para adivinhar. Use while para repetir até acertar, contando
@@ -91,6 +92,7 @@ npm install prompt-sync
     Implemente function memoize(fn) que armazene em cache chamadas
     anteriores de fn (por argumentos), retornando resultados instantâneos em
     repetidas invocações.
+<br>
 **Seção 3: Arrays e Objetos Complexos**
 7. Mapeamento e Ordenação
     Dado um array produtos = [{ nome, preco }, …], crie uma função que
