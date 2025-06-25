@@ -20,16 +20,21 @@ Para executar os exercícios do projeto localmente, em seu ambiente, é necessá
 
 Após instalar o **node.js**,  um **editor de código** e o **Git**, para a execução dos arquivos.js da lista de execícios, é necessario a realização dos seguintes passos:
 
-> **1. Clonar o repositório**
-    >Para clonar o repositório execute o comando no terminal do Git: 
-    > ```bash
-    >git clone https://github.com/Ikaro-Leal/-Prati_Lista_exercicios_2
-    >```
-    >**2. Instale as dependências e bibliotecas**.
-    > É necessario a instalação da biblioteca **prompt-sync**, realizando o seguinte comando no terminal do VsCode Studio
-    > ```bash
-    >npm install prompt-sync
-    >```
+**1. Clonar o repositório**  
+Para clonar o repositório, execute o comando no terminal do Git:
+
+```bash
+git clone https://github.com/Ikaro-Leal/-Prati_Lista_exercicios_2
+```
+
+<br>
+
+**2. Instale as dependências e bibliotecas**.
+É necessario a instalação da biblioteca **prompt-sync**, realizando o seguinte comando no terminal do VsCode Studio:
+
+```bash
+npm install prompt-sync
+```
 
 #### Estrutura dos arquivos
 
