@@ -40,6 +40,14 @@ cd -Prati_Lista_exercicios_2
 npm install
 ```
 
+**4. Execute um Exercício**.
+Para a execução de um exercício específico, utilize o Node.js com o seguinte comando em seu terminal:
+
+```bash
+node 01.Exericio01.js
+```
+
+
 
 #### Estrutura dos arquivos
 
